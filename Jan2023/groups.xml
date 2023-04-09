@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Excludegroup Suite">
+  <test thread-count="5" name="Excludegroup Test">
+  <groups>
+  <run>
+  <include name="group-1"></include>
+  <exclude name="group-2"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="Test.Excludegroup">
+      <methods>
+      <include name="methodFour"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Excludegroup Test -->
+</suite> <!-- Excludegroup Suite -->

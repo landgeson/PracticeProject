@@ -32,7 +32,7 @@ public class Inheritance {
       t.area(10, 5);
 
       Equilateral e = new Equilateral();
-      e.area(10, 5);
+      e.area(10, 6);
 
       Circle c = new Circle();
       c.area(5);
